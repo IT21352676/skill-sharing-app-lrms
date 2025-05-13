@@ -1,0 +1,6 @@
+{
+  "java.project.sourcePaths": [
+    "backend/demo/src/main/java/com/exampleskillsharingapp/demo"
+  ],
+  "java.configuration.updateBuildConfiguration": "interactive"
+}
