@@ -66,7 +66,7 @@ public Optional<Resource> getPostById(String id) {
 }
 
 public List<Resource> getPostsByTitle(String title) {
-    return resourceRepository.findByTitleIgnoreCase(title);
+    return resourceRepository.findByTitleContainingIgnoreCase(title);
 }
 
 public Resource updatePost(String id, String title, String description, MultipartFile file) throws IOException {
