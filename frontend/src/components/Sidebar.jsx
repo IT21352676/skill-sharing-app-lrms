@@ -8,6 +8,7 @@ import {
   Bookmark,
   Users,
   Settings,
+  School,
 } from "lucide-react";
 
 const Sidebar = () => {
@@ -23,6 +24,11 @@ const Sidebar = () => {
       icon: User,
       label: "Profile",
       path: "/profile/johndoe",
+    },
+    {
+      icon: School,
+      label: "Resources",
+      path: "/resources",
     },
     {
       icon: BookOpen,
